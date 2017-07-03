@@ -33,7 +33,7 @@
                     <Item subMenuId = "edit-indent" name = "Indenta" />
                     <Item subMenuId = "edit-convertCaseTo" name = "Converti caratteri" />
                     <Item subMenuId = "edit-lineOperations" name = "Operazioni sulle linee" />
-                    <Item subMenuId = "edit-comment" name = "Commenta/Decommenta" />
+                    <Item subMenuId = "edit-comment" name = "Commenta/decommenta" />
                     <Item subMenuId = "edit-autoCompletion" name = "Auto-completamento" />
                     <Item subMenuId = "edit-eolConversion" name = "Converti carattere di fine linea" />
                     <Item subMenuId = "edit-blankOperations" name = "Operazioni sugli spazi" />
@@ -46,7 +46,7 @@
                     <Item subMenuId = "search-bookmark" name = "Segnalibri" />
                     <Item subMenuId = "view-showSymbol" name = "Simboli" />
                     <Item subMenuId = "view-zoom" name = "Zoom" />
-                    <Item subMenuId = "view-moveCloneDocument" name = "Sposta/Clona documento corrente" />
+                    <Item subMenuId = "view-moveCloneDocument" name = "Sposta/clona documento corrente" />
                     <Item subMenuId = "view-tab" name = "Schede" />
                     <Item subMenuId = "view-collapseLevel" name = "Collassa livello" />
                     <Item subMenuId = "view-uncollapseLevel" name = "Non collassare livello" />
@@ -56,7 +56,7 @@
                     <Item subMenuId = "encoding-baltic" name = "Baltico" />
                     <Item subMenuId = "encoding-celtic" name = "Celtico" />
                     <Item subMenuId = "encoding-cyrillic" name = "Cirillico" />
-                    <Item subMenuId = "encoding-centralEuropean" name = "Europa Centrale" />
+                    <Item subMenuId = "encoding-centralEuropean" name = "Europa centrale" />
                     <Item subMenuId = "encoding-chinese" name = "Cinese" />
                     <Item subMenuId = "encoding-easternEuropean" name = "Europa orientale" />
                     <Item subMenuId = "encoding-greek" name = "Greco" />
@@ -66,7 +66,7 @@
                     <Item subMenuId = "encoding-northEuropean" name = "Europa del nord" />
                     <Item subMenuId = "encoding-thai" name = "Tailandese" />
                     <Item subMenuId = "encoding-turkish" name = "Turco" />
-                    <Item subMenuId = "encoding-westernEuropean" name = "Europa Occidentale" />
+                    <Item subMenuId = "encoding-westernEuropean" name = "Europa occidentale" />
                     <Item subMenuId = "encoding-vietnamese" name = "Vietnamita" />
                     <Item subMenuId = "settings-import" name = "Importa" />
                     <Item subMenuId = "tools-md5" name = "MD5" />
@@ -117,7 +117,7 @@
                     <Item id = "42019" name = "&amp;Ferma registrazione" />
                     <Item id = "42020" name = "Inizio/Fine selezione" />
                     <Item id = "42021" name = "&amp;Esegui la macro" />
-                    <Item id = "42022" name = "Commenta / Decommenta singola riga" />
+                    <Item id = "42022" name = "Commenta/decommenta singola riga" />
                     <Item id = "42023" name = "Commenta blocco" />
                     <Item id = "42024" name = "Elimina spazi a fine riga" />
                     <Item id = "42025" name = "Salva la macro registrata" />
@@ -175,7 +175,7 @@
                     <Item id = "42076" name = "Modifica motore di ricerca..." />
 
                     <Item id = "43001" name = "&amp;Trova..." />
-                    <Item id = "43002" name = "Trova &amp;successivo" />
+                    <Item id = "43002" name = "&amp;Successivo" />
                     <Item id = "43003" name = "Sostitu&amp;isci..." />
                     <Item id = "43004" name = "Vai alla riga..." />
                     <Item id = "43005" name = "Segnalibro" />
@@ -366,7 +366,7 @@
         </Menu>
         <Dialog>
             <Find title = "" titleFind = "Trova" titleReplace = "Sostituisci" titleFindInFiles = "Cerca nei file" titleMark = "Evidenzia">>
-                <Item id = "1" name = "Trova successivo" />
+                <Item id = "1" name = "Successivo" />
                 <Item id = "2" name = "Chiudi" />
                 <Item id = "1603" name = "Solo &amp;parole intere" />
                 <Item id = "1604" name = "Distingui tra ma&amp;iuscole e minuscole" />
@@ -416,7 +416,7 @@
                 <Item id = "2909" name = "Torna su se raggiunta la fine" />
             </FindCharsInRange>
             <GoToLine title = "Vai alla riga #">
-                <Item id = "1" name = "&amp;Vai !" />
+                <Item id = "1" name = "&amp;Vai!" />
                 <Item id = "2" name = "Annulla" />
                 <Item id = "2004" name = "Sei alla riga:" />
                 <Item id = "2005" name = "Vai alla riga:" />
@@ -479,7 +479,7 @@
                 <Item id = "20007" name = "Linguaggio personalizzato: " />
                 <Item id = "20009" name = "Estensione:" />
                 <Item id = "20011" name = "Trasparenza" />
-                <Item id = "20012" name = "Ignora Maius./minus." />
+                <Item id = "20012" name = "Ignora maius./minus." />
                 <Item id = "20015" name = "Importa..." />
                 <Item id = "20016" name = "Esporta..." />
                 <Folder title = "Cartelle &amp;&amp; Predefiniti">
@@ -1020,7 +1020,7 @@
             <word-chars-list-space-warning value = "$INT_REPLACE$ spazi" />
             <!-- $INT_REPLACE$ is a place holder, don't translate it -->
             <word-chars-list-tab-warning value = "$INT_REPLACE$ tab" />
-            <word-chars-list-warning-end value = " nella tua lista catatteri." />
+            <word-chars-list-warning-end value = " nella tua lista caratteri." />
             <cloud-invalid-warning value = "Percorso non valido." />
             <cloud-restart-warning value = "Riavvia Notepad++ per applicare le modifiche." />
         </MiscStrings>
